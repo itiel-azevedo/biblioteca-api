@@ -1,0 +1,9 @@
+{
+  "name": "biblioteca-api",
+  "version": "1.0.0",
+  "description": "API REST de uma biblioteca comunitária (atividade prática - Desenvolvimento Web Back End)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "MIT",
+  "dependencies": { "express": "^4.19.2" }
+}
