@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/livros
+method: GET
+headers:
+  Content-Type: application/json
+order: 1000

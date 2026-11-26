@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/livros
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "autor": "Autor sem título"
+    }
+order: 4000

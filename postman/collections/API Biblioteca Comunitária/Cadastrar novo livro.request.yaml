@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/livros
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "autor": "Machado de Assis",
+      "ano": 1881
+    }
+order: 3000

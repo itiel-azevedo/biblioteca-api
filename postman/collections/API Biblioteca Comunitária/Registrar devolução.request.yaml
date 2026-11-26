@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/emprestimos/1/devolucao
+method: PATCH
+headers:
+  Content-Type: application/json
+order: 8000

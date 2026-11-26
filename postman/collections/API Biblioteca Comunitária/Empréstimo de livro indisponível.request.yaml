@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/emprestimos
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "livroId": 1,
+      "leitor": "João Lima"
+    }
+order: 7000
